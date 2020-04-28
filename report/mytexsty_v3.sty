@@ -33,12 +33,14 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % new commands
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% figure
-%%% you can insert figure by the following new command fir example:
-%%% \figin{path}{caption}{label}{width}
-%%%%%% one figure
-%%%%%%%%% htbp
-\newcommand{\fightbp}[4][width=5cm]{
+%%% figure-related
+%%%%%% figure number: 1
+%%%%%% you can insert figures by the following new command for example:
+%%%%%% \fightbp[width]{path}{caption}{label}
+%%%%%% OR 
+%%%%%% \fightbp{path}{caption}{label}    (--> width will be 5cm)
+%%%%%%%%% figure location: htbp
+\newcommand{\fightbp}[4][width=5cm]{%
 \begin{figure}[htbp]
 	\begin{center}
 		\includegraphics[#1]{#2}
@@ -47,8 +49,9 @@
 	\end{center}
 \end{figure}
 }
-%%%%%%%%% h
-\newcommand{\figh}[4][width=5cm]{
+
+%%%%%%%%% figure location: h
+\newcommand{\figh}[4][width=5cm]{%
 \begin{figure}[h]
 	\begin{center}
 		\includegraphics[#1]{#2}
@@ -57,8 +60,9 @@
 	\end{center}
 \end{figure}
 }
-%%%%%%%%% H
-\newcommand{\figH}[4][width=5cm]{
+
+%%%%%%%%% figure location: H
+\newcommand{\figH}[4][width=5cm]{%
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[#1]{#2}
@@ -68,12 +72,18 @@
 \end{figure}
 }
 
+%%%%%% figure number: 2
+%%%%%% you can insert figures by the following new command for example:
+%%%%%% \twofigchtbp[width]{path1}{caption1}{label1}{path2}{caption2}{label2}
+%%%%%% OR 
+%%%%%% \twofigchtbp[width]{path1}{caption1}{label1}{path2}{caption2}{label2}
+%%%%%% (--> width will be 5cm for each figure)
 %%%%%%%%% two figures in one line w/ caption number for each figure
-\newcommand{\twofigchtbp}[1][width=4cm]{
+\newcommand{\twofigchtbp}[1][width=4cm]{%
     \def\thincludegraphics{\includegraphics[#1]}
     \figshtbpcontent
 }
-\newcommand{\figshtbpcontent}[6]{
+\newcommand{\figshtbpcontent}[6]{%
 \begin{figure}[htbp]
     \begin{minipage}{0.5\hsize}
         \begin{center}
@@ -93,11 +103,11 @@
 }
 
 %%%%%%%%% two figures in one line w/o caption number for each figure
-\newcommand{\twofightbp}[1][width=4cm]{
+\newcommand{\twofightbp}[1][width=4cm]{%
     \def\thincludegraphicssc{\includegraphics[#1]}
     \figshtbpcontentsc
 }
-\newcommand{\figshtbpcontentsc}[8]{
+\newcommand{\figshtbpcontentsc}[8]{%
 \addtocounter{figure}{-2}
 \begin{figure}[htbp]
     \begin{minipage}{0.5\hsize}
@@ -121,14 +131,14 @@
 \end{figure}
 }
 
-%%% math
+%%% mathematical-sign-related
 \DeclareMathOperator{\divergence}{div}
 \DeclareMathOperator{\grad}{grad}
 \DeclareMathOperator{\rot}{rot}
 \DeclareMathOperator{\rank}{rank}
 \DeclareMathOperator{\re}{Re}
 \DeclareMathOperator{\im}{Im}
-\newcommand{\dd}{{\rm d}}
+\newcommand{\dd}{{\rm d}}    %e.g. \frac{\dd x}{\dd t}
 \newcommand{\pp}{\partial}
 
 
@@ -139,8 +149,11 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% redefine
+% modification of style
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% caption-related
+%%% If you would like to display : like "Figure 1: xxxx", 
+%%% please comment out the following 12 all lines.
 \long\def\@makecaption#1#2{{\small
     \advance\leftskip1cm
     \advance\rightskip1cm

@@ -2,11 +2,16 @@
 %                                                      %
 %    report_textemp.tex                                %
 %    ~~~~~~~~~~~~~~~~~~                                %
-%    This file is the template for reports.            %
-%    The style file, 'mytexsty_v1.sty', is required.   %
+%    This is the template file for reports.            %
+%    The style file, 'mytexsty_v3.sty', is required.   %
+%    You can change the name of this file;             %
+%    however, it is better not change                  %
+%    the name of the style file.                       %
 %                                                      %
 %    made by Yudai YAMAKAWA                            %
 %    last update: April 28, 2020                       %
+%                                                      %
+%    GitHub: https://github.com/togaritogarikun        %
 %                                                      %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -15,13 +20,11 @@
 % document class
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \documentclass[dvipdfmx,a4j,11pt]{article}
-%\documentclass[a4j,11pt]{jsarticle}
+%\documentclass[dvipdfmx,a4j,11pt]{jsarticle}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % packages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\usepackage{mytexsty_v1}
-%\usepackage{mytexsty_v2}
 \usepackage{mytexsty_v3}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -38,9 +41,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % course title & date
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Science of fruits color 1    % course title
+Science of fruits color 1    % course titlei [You can edit.] 
 \hspace{\fill}
-June 6, 2100    % date
+June 6, 2100    % date [You can edit.] 
 
 \end{flushleft}
 \begin{center} 
@@ -50,25 +53,25 @@ June 6, 2100    % date
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % report title
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-{\Huge F}INAL {\Huge R}EPORT 
+{\Huge F}INAL {\Huge R}EPORT    % [You can edit.] 
 
 \vspace{0.3cm} 
 \large \rm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % student ID & name & affiliation & contact 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-ABCD1234 ~~    % student ID
-Cherry SMITH    % your name
+ABCD1234 ~~    % student ID [You can edit.] 
+Cherry SMITH    % your name [You can edit.] 
     
-Department of Cherry Engineering, Fruits University	% affiliation
+Department of Cherry Engineering, Fruits University	% affiliation [You can edit.] 
     
-mail: csmith@fruits.ac.jp	%contact
+mail: csmith@fruits.ac.jp	%contact [You can edit.] 
 
 \end{center}
 \normalsize
 \vspace{0.5cm} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% main text
+% main text [You can edit.] 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
 %
@@ -85,9 +88,10 @@ aaaa aaaa aaaa aaaa aaaa aaaa aaaa (Fig.~\ref{fig:multicherry}).
 aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
 aaaa aaaa aaaa aaaa.
 
+%%% examples to insert figures using new commands
+%\fightbp[width=5cm]{./zu/cherry3.pdf}{Three cherries.}{cherry}
 %\twofigchtbp{./zu/cherry1.pdf}{Red cherry.}{cherry1}{./zu/cherry2.pdf}{Two red cherrires.}{cherry2}
 \twofightbp{./zu/cherry1.pdf}{(a) one cherry}{cherry1}{./zu/cherry2.pdf}{(b) two cherries}{cherry2}{Multiplying red cherry.}{multicherry}
-%\fightbp[width=5cm]{./zu/cherry3.pdf}{Three cherries.}{cherry}
 
 %
 %
@@ -115,7 +119,7 @@ aaaa aaaa aaaa aaaa aaaa aaaa aaaa.
 %
 %\vspace{10mm}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% references
+% references [You can edit.] 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{thebibliography}{99}
 	\bibitem{orange} Orange JOHNSON, "Numerical Analysis of multiplying orange," {\it journal of red fruits}, Vol. 1, No. 1, 2099.
