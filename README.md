@@ -1,16 +1,16 @@
-# TeX files group
+# TeX Files Group
 This repository stores TeX-related files.
 
 ## report/
 In this directory, 
 template files which could be used for reports are included.
 
-#### report/report_textemp.tex
+#### ■report/report_textemp.tex
 This is the main TeX-file. 
 You will edit this one. 
 To compile this, mytexsty_v3.sty is required.
 
-#### report/mytexsty_v3.sty
+#### ■report/mytexsty_v3.sty
 This is the style file. 
 Macro packages are written. 
 
@@ -35,8 +35,8 @@ then, execute the following command in the created directory:
     % cd directory_name_you_create
     % sudo mktexlsr
 
-#### report/report_textemp.pdf
+#### ■report/report_textemp.pdf
 This is the example result of compiled report/report_textemp.tex.
 
-#### report/zu/
+#### ■report/zu/
 This directory stores test datas for figures.
