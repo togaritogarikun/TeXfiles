@@ -43,7 +43,8 @@ This directory stores test datas for figures.
 
 ## summary/
 In this directory, 
-template files which could be used when you would like to summary papers you read are included.
+template files which could be used when you would like to summarize papers you read are included. 
+The summary methods provided by Prof. Y. OCHIAI are refered to.
 
 #### ■ summary/Summary_of_PaperIread.tex
 This is the main TeX-file. 
