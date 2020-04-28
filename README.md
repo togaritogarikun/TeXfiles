@@ -58,13 +58,16 @@ Macro packages are written.
 #### ■ summary/usage_example.pdf
 This is the example result of compiled summary/Summary_of_PaperIread.tex
 
-## graduation_thesis/
-Sorry, but please note that small bugs still remain. 
+## dissertation/
+*Sorry, but please note that small bugs still remain. 
 You can use files to output the final form of thesis (main.pdf); 
 however, the error message will be displayed: 
-> main.tex:103: LaTeX Error: There's no line here to end.
+> main.tex:103: LaTeX Error: There's no line here to end.*
 
-#### ■ graduation_thesis/main.tex
+In this directory, 
+template files which could be used when you would like to write dissertations. 
+
+#### ■ dissertation/main.tex
 main.tex includes content files: 
 
 - abstract.tex
