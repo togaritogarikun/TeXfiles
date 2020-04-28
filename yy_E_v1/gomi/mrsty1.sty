@@ -1,0 +1,53 @@
+%%% mrsty1.sty --- 修士論文用レイアウト追加スタイルファイル
+%%% jsbook.cls の追加スタイル
+%%%
+%%% ページナンバーを上に．非公式タイプ
+%%%
+%%% Author : 岩田　創 --- Takumi IWATA
+%%% Date : 2001/12/18
+%%% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 図表のページでは奇数ページの柱でも章を出力
+\def\ps@figheadings{%
+  \let\@oddfoot\@empty
+  \let\@evenfoot\@empty
+  \def\@evenhead{\hss
+    \underline{\hbox to \fullwidth{\autoxspacing
+        \textbf{\thepage}\hfil\leftmark}}}%
+  \def\@oddhead{\underline{\hbox to \fullwidth{\autoxspacing
+        {\leftmark}\hfil\textbf{\thepage}}}\hss}%
+  \let\@mkboth\markboth
+  \def\chaptermark##1{\markboth{%
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \@chapapp\thechapter\@chappos\hskip1zw
+      \fi
+    \fi
+    ##1}{%
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \@chapapp\thechapter\@chappos\hskip1zw
+      \fi
+    \fi
+    ##1}}%
+}%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ページレイアウト
+%%% 文字サイズを標準(10pt)以外に設定した場合はptをtrueptと置く
+%%% 横方向
+\setlength{\oddsidemargin}{14.6truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\setlength{\textwidth}{150truemm}
+%%% 縦方向
+%\setlength{\topmargin}{-5.4truemm}
+%\setlength{\textheight}{240.0truemm}
+%%% ヘッダ・フッタの横幅を\textwidthに合わせる (jsbook.sty用)
+\setlength{\fullwidth}{\textwidth}
+%%% fleqnを選択した場合の、数式の左端からの距離を定義(default:2zw)
+%\setlength{\mathindent}{3zw}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 図表スタイルモード
+%\renewcommand{\figstyles}{\pagestyle{plain}}
+\renewcommand{\figstyles}{\pagestyle{figheadings}}
+%%% 通常スタイルモード
+\renewcommand{\normalstyles}{\pagestyle{headings}}

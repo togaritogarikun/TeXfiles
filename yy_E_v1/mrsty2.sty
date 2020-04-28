@@ -1,0 +1,58 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                        %
+%  jsbook 用追加スタイルファイル                         %
+%                                                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%  ページ番号をフッタ中央に表示させる/ヘッダなし
+%%%  下記URIの奥村先生の発言より．
+%%%  http://www.matsusaka-u.ac.jp/~okumura/texfaq/qa/4458.html
+\setlength\footskip{0.03367\paperheight}
+\ifdim\footskip<\baselineskip
+  \setlength\footskip{\baselineskip}
+\fi
+
+\setlength\headsep{\footskip}
+\addtolength\headsep{-\topskip}
+
+\setlength{\textheight}{0.83\paperheight}
+\addtolength{\textheight}{-\headheight}
+\addtolength{\textheight}{-\headsep}
+\addtolength{\textheight}{-\footskip}
+\addtolength{\textheight}{-\topskip}
+\divide\textheight\baselineskip
+\multiply\textheight\baselineskip
+
+\setlength\topmargin{\paperheight}
+\addtolength\topmargin{-\textheight}
+\addtolength\topmargin{-\headheight}
+\addtolength\topmargin{-\headsep}
+\addtolength\topmargin{-\footskip}
+\setlength\topmargin{0.5\topmargin}
+\iftombow
+  \addtolength\topmargin{-1in}
+\else
+  \addtolength\topmargin{-1truein}
+\fi
+
+\def\ps@plain{%
+  \let\@mkboth\@gobbletwo
+  \let\@oddhead\@empty
+  \def\@oddfoot{\normalfont\hfil\thepage\hfil}%
+  \let\@evenhead\@empty
+  \let\@evenfoot\@oddfoot}
+
+\pagestyle{plain}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% ページレイアウト
+%%% 文字サイズを標準(10pt)以外に設定した場合はptをtrueptと置く
+%%% 横方向
+\setlength{\oddsidemargin}{14.6truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\setlength{\textwidth}{150truemm}
+%%% 縦方向
+\setlength{\topmargin}{0.0truemm}
+\setlength{\headheight}{0.0truemm}
+\setlength{\headsep}{0.0truemm}
+\setlength{\textheight}{240.0truemm}
+\setlength{\footskip}{12.0truemm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

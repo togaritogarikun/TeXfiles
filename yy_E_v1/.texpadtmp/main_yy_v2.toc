@@ -1,0 +1,27 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}% 
+\contentsline {section}{\numberline {1.1}Background}{1}% 
+\contentsline {subsection}{\numberline {1.1.1}Usability of electric thruster and problem of limiting life time}{1}% 
+\contentsline {subsection}{\numberline {1.1.2}Concept of electrodeless plasma thruster}{5}% 
+\contentsline {subsection}{\numberline {1.1.3}Complexity of acceleration mechanism in actual thruster}{6}% 
+\contentsline {section}{\numberline {1.2}Objective}{9}% 
+\contentsline {chapter}{\numberline {2}Numerical methods}{10}% 
+\contentsline {section}{\numberline {2.1}Electromagnetic model}{10}% 
+\contentsline {subsection}{\numberline {2.1.1}Govering equations}{10}% 
+\contentsline {subsection}{\numberline {2.1.2}Finite Difference Time Domain (FDTD) method}{11}% 
+\contentsline {subsubsection}{The temporal derivatives}{12}% 
+\contentsline {subsubsection}{The space derivatives}{13}% 
+\contentsline {subsection}{\numberline {2.1.3}Absorbing boundary condition in FDTD method}{17}% 
+\contentsline {subsection}{\numberline {2.1.4}FDTD method in axisymmetric coordinates}{18}% 
+\contentsline {subsection}{\numberline {2.1.5}Mur's absorbing boundary condition in axisymmetric coordinates}{21}% 
+\contentsline {section}{\numberline {2.2}Plasma fluid model}{22}% 
+\contentsline {subsection}{\numberline {2.2.1}Govering equations}{22}% 
+\contentsline {subsection}{\numberline {2.2.2}Discretization method}{23}% 
+\contentsline {subsection}{\numberline {2.2.3}Spatial Interpolation Method}{25}% 
+\contentsline {chapter}{\numberline {3}Numerical conditions}{29}% 
+\contentsline {chapter}{\numberline {4}Result and Discussion}{32}% 
+\contentsline {section}{\numberline {4.1}The effectiveness of the Lorentz force as the electromagnetic acceleration mechanism}{32}% 
+\contentsline {subsection}{\numberline {4.1.1}Acceleration by Lorentz force}{32}% 
+\contentsline {subsection}{\numberline {4.1.2}Effect of plasma density on acceleration area}{38}% 
+\contentsline {subsection}{\numberline {4.1.3}Reversed electromagnetic field}{38}% 
+\contentsline {section}{\numberline {4.2}The effects of the static magnetic field intensity on the configuration of the electromagnetic field in the plasma}{41}% 
+\contentsline {chapter}{\numberline {5}Conclusion}{44}% 

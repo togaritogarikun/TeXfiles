@@ -1,0 +1,542 @@
+This is e-pTeX, Version 3.14159265-p3.8.1-180226-2.6 (utf8.euc) (TeX Live 2018) (preloaded format=platex 2019.4.15)  28 JAN 2020 00:37
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**main_yy_v4.tex
+(./main_yy_v4.tex
+pLaTeX2e <2018-12-01> (based on LaTeX2e <2018-12-01>)
+(/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jsbook.cls
+Document Class: jsbook 2018/12/11 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen118
+\jsc@mmm=\dimen119
+\jsc@smallskipamount=\skip41
+LaTeX Info: Redefining \rmfamily on input line 471.
+LaTeX Info: Redefining \sffamily on input line 474.
+LaTeX Info: Redefining \ttfamily on input line 477.
+LaTeX Info: Redefining \textmc on input line 481.
+LaTeX Info: Redefining \textgt on input line 483.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 545.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 736.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 736.
+\fullwidth=\dimen120
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 897.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 897.
+\c@part=\count83
+\c@chapter=\count84
+\c@section=\count85
+\c@subsection=\count86
+\c@subsubsection=\count87
+\c@paragraph=\count88
+\c@subparagraph=\count89
+\c@figure=\count90
+\c@table=\count91
+\abovecaptionskip=\skip42
+\belowcaptionskip=\skip43
+\jsc@tocl@width=\dimen121
+\@lnumwidth=\dimen122
+\bibindent=\dimen123
+(/usr/local/texlive/2018/texmf-dist/tex/platex/jsclasses/jslogo.sty
+Package: jslogo 2017/02/24 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 94.
+LaTeX Info: Redefining \LaTeX on input line 147.
+LaTeX Info: Redefining \LaTeXe on input line 200.
+)
+\heisei=\count92
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/docmute/docmute.sty
+Package: docmute 2012/03/22 v1.4 Input stand-alone documents
+) (./setting1.tex (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen124
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen125
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box43
+\strutbox@=\box44
+\big@size=\dimen126
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks16
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks17
+\eqnshift@=\dimen127
+\alignsep@=\dimen128
+\tagshift@=\dimen129
+\tagwidth@=\dimen130
+\totwidth@=\dimen131
+\lineht@=\dimen132
+\@envbody=\toks18
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 99.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
+File: dvipdfmx.def 2017/06/24 v5.0g Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen133
+\Gin@req@width=\dimen134
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvipdfmx.def on input line 147.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen135
+\ar@mcellbox=\box45
+\extrarowheight=\dimen136
+\NC@list=\toks21
+\extratabsurround=\skip47
+\backup@length=\skip48
+\ar@cellbox=\box46
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks22
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+\LTleft=\skip49
+\LTright=\skip50
+\LTpre=\skip51
+\LTpost=\skip52
+\LTchunksize=\count105
+\LTcapwidth=\dimen137
+\LT@head=\box47
+\LT@firsthead=\box48
+\LT@foot=\box49
+\LT@lastfoot=\box50
+\LT@cols=\count106
+\LT@rows=\count107
+\c@LT@tables=\count108
+\c@LT@chunks=\count109
+\LT@p@ftn=\toks23
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count110
+\float@exts=\toks24
+\float@box=\box51
+\@float@everytoks=\toks25
+\@floatcapt=\box52
+) (./mediabb.sty
+Package: mediabb 2013/03/12 v1.10 iNOUE Koich! <inoue@ma.ns.tcu.ac.jp>
+) (./here.sty) (./subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip53
+\subfigcapskip=\skip54
+\subfigcaptopadj=\dimen138
+\subfigbottomskip=\skip55
+\subfigcapmargin=\dimen139
+\subfiglabelskip=\skip56
+\c@subfigure=\count111
+\c@lofdepth=\count112
+\c@subtable=\count113
+\c@lotdepth=\count114
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(./subfigure.cfg)
+\subfig@top=\skip57
+\subfig@bottom=\skip58
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/helvet.sty
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+) (./jsplusmr.sty) (./mrsty2.sty)) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/main_yy_v4.aux (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/abstract.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/intro.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/method.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/setup.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/result1.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/conclusion.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/appenA.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/reference.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/thanks.aux))
+\openout1 = `main_yy_v4.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 96.
+LaTeX Font Info:    ... okay on input line 96.
+\docmute@nestinglevel=\count115
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 110.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.06396pt on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.06396pt on input line 110.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 110.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <24> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 110.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 23.06396pt on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <24> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 110.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 23.06396pt on input line 110.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <24> not available
+(Font)              size <24.88> substituted on input line 110.
+
+LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 110.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 110.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 11.53198pt on input line 110.
+
+./main_yy_v4.tex:110: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.110 \maketitle
+                
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 110.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 110.
+LaTeX Font Info:    Try loading font information for U+msa on input line 110.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 110.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+
+] [2]
+\openout2 = `abstract.aux'.
+
+ (./abstract.tex
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 21.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 21.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 21.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 23.90964pt on input line 21.
+LaTeX Font Info:    Try loading font information for OT1+phv on input line 21.
+ (/usr/local/texlive/2018/texmf-dist/tex/latex/psnfss/ot1phv.fd
+File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+) [3
+
+
+]) [4]
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 139.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 139.
+ (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/main_yy_v4.toc
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 2.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 2.
+
+Underfull \hbox (badness 1755) in paragraph at lines 25--25
+ [][] [] \OT1/cmr/m/n/10 Lorentz force gen-er-a-tion as elec-tro-mag-netic ac-cel-er-a-tion 
+ []
+
+[5
+
+
+])
+\tf@toc=\write3
+\openout3 = `main_yy_v4.toc'.
+
+ [6]
+\openout2 = `intro.aux'.
+
+ (./intro.tex
+Chapter\nobreakspace {}1
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 26.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 19.9311pt on input line 26.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 32.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 32.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 32.
+[1
+
+
+
+]
+File: Fig/zu_electric_thruster.eps Graphic file (type eps)
+<Fig/zu_electric_thruster.eps>
+File: Fig/zu_thrust-SI.eps Graphic file (type eps)
+<Fig/zu_thrust-SI.eps>
+File: Fig/zu_ionthruster.eps Graphic file (type eps)
+<Fig/zu_ionthruster.eps>
+ [2] [3]
+File: Fig/zu_photo_erosion.eps Graphic file (type eps)
+<Fig/zu_photo_erosion.eps>
+ [4]
+File: Fig/zu_electrodeless.eps Graphic file (type eps)
+<Fig/zu_electrodeless.eps>
+File: Fig/zu_heliconjump.eps Graphic file (type eps)
+<Fig/zu_heliconjump.eps>
+ [5]
+File: Fig/zu_HT_performances.eps Graphic file (type eps)
+<Fig/zu_HT_performances.eps>
+ [6] [7]
+File: Fig/zu_REF.eps Graphic file (type eps)
+<Fig/zu_REF.eps>
+File: Fig/zu_nomura1.eps Graphic file (type eps)
+<Fig/zu_nomura1.eps>
+File: Fig/zu_nomura2.eps Graphic file (type eps)
+<Fig/zu_nomura2.eps>
+File: Fig/zu_RMF.eps Graphic file (type eps)
+<Fig/zu_RMF.eps>
+File: Fig/zu_uchigasaki1.eps Graphic file (type eps)
+<Fig/zu_uchigasaki1.eps>
+ [8] [9] [10]
+File: Fig/zu_electrodeless_coil.eps Graphic file (type eps)
+<Fig/zu_electrodeless_coil.eps>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11]
+File: Fig/zu_zikken_yasu.eps Graphic file (type eps)
+<Fig/zu_zikken_yasu.eps>
+ [12] [13]) [14]
+\openout2 = `method.aux'.
+
+ (./method.tex
+Chapter\nobreakspace {}2
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 51.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 4.805pt on input line 51.
+[15
+
+
+
+]
+File: Fig/zu_3DfdtdC.eps Graphic file (type eps)
+<Fig/zu_3DfdtdC.eps>
+File: Fig/zu_fdtd_time.eps Graphic file (type eps)
+<Fig/zu_fdtd_time.eps>
+ [16] [17] [18] [19] [20]
+File: Fig/zu_TMandTE.eps Graphic file (type eps)
+<Fig/zu_TMandTE.eps>
+ [21] [22]
+File: Fig/zu_1DMur.eps Graphic file (type eps)
+<Fig/zu_1DMur.eps>
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23] [24]
+File: Fig/zu_defined_axisymfdtd.eps Graphic file (type eps)
+<Fig/zu_defined_axisymfdtd.eps>
+ [25] [26] [27] [28] [29] [30]
+File: Fig/zu_definedfluid.eps Graphic file (type eps)
+<Fig/zu_definedfluid.eps>
+ [31]
+Underfull \hbox (badness 1430) in paragraph at lines 1540--1575
+\OT1/cmr/m/n/10 Because $\OML/cmm/m/it/10 v[]$ \OT1/cmr/m/n/10 is de-fined at $(\OML/cmm/m/it/10 j; k \OT1/cmr/m/n/10 + 1\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 2)$, $\OML/cmm/m/it/10 C[];  []C[];  []C[]$\OT1/cmr/m/n/10 , and $\OML/cmm/m/it/10 C[]$ \OT1/cmr/m/n/10 in
+ []
+
+[32] [33]) [34]
+\openout2 = `setup.aux'.
+
+ (./setup.tex
+Chapter\nobreakspace {}3
+[35
+
+
+
+]
+File: Fig/zu_calcdomain.eps Graphic file (type eps)
+<Fig/zu_calcdomain.eps>
+File: Fig/zu_Bmnr.eps Graphic file (type eps)
+<Fig/zu_Bmnr.eps>
+File: Fig/zu_domain_EM-F.eps Graphic file (type eps)
+<Fig/zu_domain_EM-F.eps>
+) [36] [37]
+\openout2 = `result1.aux'.
+
+ (./result1.tex
+Chapter\nobreakspace {}4
+[38
+
+
+
+]
+File: Fig/zu_viz.eps Graphic file (type eps)
+<Fig/zu_viz.eps>
+ [39] [40] [41]
+File: Fig/timehis1.eps Graphic file (type eps)
+<Fig/timehis1.eps>
+File: Fig/zu_Hz_w-wo-FL.eps Graphic file (type eps)
+<Fig/zu_Hz_w-wo-FL.eps>
+ [42]
+File: Fig/zu_Eth_w_1017_18_19_v2.eps Graphic file (type eps)
+<Fig/zu_Eth_w_1017_18_19_v2.eps>
+ [43] [44]
+File: Fig/zu_H_vec_v2.eps Graphic file (type eps)
+<Fig/zu_H_vec_v2.eps>
+
+Overfull \hbox (27.37178pt too wide) in paragraph at lines 356--358
+ [][] 
+ []
+
+File: Fig/zu_H_by_jth_v2.eps Graphic file (type eps)
+<Fig/zu_H_by_jth_v2.eps>
+File: Fig/zu_schematic_of_mechanism_RMF.eps Graphic file (type eps)
+<Fig/zu_schematic_of_mechanism_RMF.eps>
+
+Overfull \hbox (5.69055pt too wide) in paragraph at lines 373--374
+ [][] 
+ []
+
+[45]
+File: Fig/zu_3Hvec.eps Graphic file (type eps)
+<Fig/zu_3Hvec.eps>
+File: Fig/zu_3veth.eps Graphic file (type eps)
+<Fig/zu_3veth.eps>
+) [46] [47] [48] [49]
+\openout2 = `conclusion.aux'.
+
+ (./conclusion.tex
+Chapter\nobreakspace {}5
+[50
+
+
+
+]) [51]
+\openout2 = `appenA.aux'.
+
+ (./appenA.tex
+AppendixA
+File: Fig/zu_TEanalytical.eps Graphic file (type eps)
+<Fig/zu_TEanalytical.eps>
+) [52
+
+
+
+] [53]
+\openout2 = `reference.aux'.
+
+ (./reference.tex [54
+
+
+
+
+] [55]) [56]
+\openout2 = `thanks.aux'.
+
+ (./thanks.tex) [57
+
+
+
+
+] (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/main_yy_v4.aux (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/abstract.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/intro.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/method.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/setup.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/result1.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/conclusion.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/appenA.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/reference.aux) (/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/thanks.aux))
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.88pt have occurred.
+
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 55 ({)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 2868 strings out of 493226
+ 41901 string characters out of 6144095
+ 109414 words of memory out of 5000000
+ 6685 multiletter control sequences out of 15000+600000
+ 24080 words of font info for 102 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 29i,12n,27p,947b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on "/Users/yamakawayudai/Library/Mobile Documents/com~apple~CloudDocs/From_mac_mini/master_thesis/master_thesis/yy_E_v1/.texpadtmp/main_yy_v4.dvi" (63 pages, 123984 bytes).

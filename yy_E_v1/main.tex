@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    main.tex                                        %
+%                                                    %
+%    December 18, 2019                               % 
+%    by Yamakawa Yudai                               %
+%                                                    %
+%    ilast update: Apr. 28, 2020.                    %
+%		                                             %
+%    GitHub: https://github.com/togaritogarikun      %
+%                                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% documentclass
+%%%%%%%%%yy%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\documentclass[12pt]{jsbook}
+\documentclass[12pt,openany,english]{jsbook}		% 両面印刷用
+%\documentclass[12pt,openany]{book}		% 両面印刷用
+%\documentclass[12pt,oneside]{jsbook}	% 片面印刷用
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% include する各 tex ファイルの 
+%%% \begin{document} \end{document} の中身だけを取得する
+%%%%%i%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{docmute}
+\renewcommand{\bibname}{References}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% usepacage 等の設定を書いたファイルを読み込む. 
+%%% include する各 tex ファイルでも読み込む必要あり
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{setting1}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% タイトルページ用各項目入力欄
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\large Aaaa Aaaa of 
+Aaaa Aaaa Aaaa Aaaa \\
+Aaaa Aaaa Aaaa Aaaa 
+in Aaaa Aaaa \\ 
+\vspace{5mm}
+\begin{singlespace}
+(あぁぁぁ あぁぁぁ あぁぁぁ あぁぁぁ あぁぁぁ あぁぁぁ あぁぁぁ あぁぁぁ に於ける 
+\\ あぁぁぁ あぁぁぁ あぁぁぁ)
+\end{singlespace}
+}
+\author{\normalsize January 1, 2100}
+\date{ }
+%%% 以下3つはjsplusmr.sty用
+\reporttype{\normalsize AAAA UNIVERSITY \\ Graduate School of Aaaa}
+\majorin{\normalsize ~ \vspace{4mm} \\ A dissertation submitted for the Master's degree (Engineering)}
+\univdept{\normalsize Department of Aaaa Engineering \\ \large \vspace{14mm}
+ \\BY \\Aaaa SMITH \vspace{-8mm}
+%東北大学大学院工学研究科\\航空宇宙工学専攻
+}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 図のキャプションのコロンを半角スペースに
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\long\def\@makecaption#1#2{%
+\vskip\abovecaptionskip
+\iftdir\sbox\@tempboxa{#1\hskip1zw#2}%
+\else\sbox\@tempboxa{#1\ #2}%
+\fi
+\ifdim \wd\@tempboxa >\hsize
+\iftdir #1\hskip1zw#2\relax\par
+\else #1\ #2\relax\par\fi
+\else
+\global \@minipagefalse
+\hbox to\hsize{\hfil\box\@tempboxa\hfil}%
+\fi
+\vskip\belowcaptionskip}
+\makeatother
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 前付
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter % 前付, ページ番号ローマ字，章番号なし
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% タイトルページ
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+\thispagestyle{empty}
+\mbox{}\newpage
+%
+\pagestyle{empty} %%%% ページ番号これで消える %%%%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% abstract
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{abstract}
+\thispagestyle{empty}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 目次
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{doublespace}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\thispagestyle{empty}
+\end{doublespace}
+\pagestyle{plain}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 本文
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter % 本文開始，\frontmatterと組で使用
+\include{intro}
+\include{method}
+\include{setup}
+\include{result1}
+\include{conclusion}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 付録
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%%
+\setcounter{chapter}{0}
+\appendix
+\makeatletter
+\renewcommand{\@chapapp}{Appendix}
+\makeatother
+%
+\include{appenA}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% 参考文献
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\normalstyles %通常スタイルモードに戻す
+\backmatter
+\include{reference} % 参考文献を自分で書くならこっち
+\backmatter % 後付，章番号なし
+\include{thanks}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
