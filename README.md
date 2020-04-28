@@ -59,10 +59,10 @@ Macro packages are written.
 This is the example result of compiled summary/Summary_of_PaperIread.tex
 
 ## dissertation/
-*Sorry, but please note that small bugs still remain. 
+Sorry, but please note that small bugs still remain. 
 You can use files to output the final form of thesis (main.pdf); 
 however, the error message will be displayed: 
-> main.tex:103: LaTeX Error: There's no line here to end.*
+> main.tex:103: LaTeX Error: There's no line here to end.
 
 In this directory, 
 template files which could be used when you would like to write dissertations. 
