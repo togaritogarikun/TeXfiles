@@ -40,3 +40,20 @@ This is the example result of compiled report/report_textemp.tex.
 
 #### ■ report/zu/
 This directory stores test datas for figures.
+
+## summary/
+In this directory, 
+template files which could be used when you would like to summarize papers you read are included. 
+The summary methods provided by Prof. Y. OCHIAI are refered to.
+
+#### ■ summary/Summary_of_PaperIread.tex
+This is the main TeX-file. 
+You will edit this one. 
+To compile this, mytexsty_v4.sty is required.
+
+#### ■ summary/mytexsty_v4.sty
+This is the style file. 
+Macro packages are written. 
+
+#### ■ summary/usage_example.pdf
+This is the example result of compiled summary/Summary_of_PaperIread.tex
