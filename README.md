@@ -1,4 +1,4 @@
-# TeXfiles
+# TeX files group
 This repository stores TeX-related files.
 
 ## report/
@@ -16,13 +16,13 @@ Macro packages are written.
 
 This style file should be in:
 
-(1) the same directory as the directory in which report_textemp.tex is.
+1. the same directory as the directory in which report_textemp.tex is.
 
 OR
 
-(2) /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
+2. /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
 
-(2.1) go to
+2.1. go to
 
     % cd /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/
 
