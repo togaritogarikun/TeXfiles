@@ -22,7 +22,7 @@ OR
 
 2. /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
 
-2.1. go to
+2.1 go to
 
     % cd /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/
 
