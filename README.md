@@ -57,3 +57,30 @@ Macro packages are written.
 
 #### ■ summary/usage_example.pdf
 This is the example result of compiled summary/Summary_of_PaperIread.tex
+
+## graduation_thesis/
+Please note that small bugs still remain. 
+You can use files to output the final form of thesis (main.pdf); 
+however, the error message will be displayed: 
+> main.tex:103: LaTeX Error: There's no line here to end.
+
+#### ■ graduation_thesis/main.tex
+main.tex includes content files: 
+
+- abstract.tex
+- intro.tex
+- method.tex
+- setup.tex
+- result1.tex
+- conclusion.tex
+- thanks.tex
+- appenA.tex
+- reference.tex
+
+Each file can be outputed as pdf files for confirmation.
+Style files are required to complie main.tex: 
+
+- mediabb.sty
+- mrsty2.sty
+- jsplusmr.sty
+- setting1.tex
