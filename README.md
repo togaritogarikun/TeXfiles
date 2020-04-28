@@ -77,8 +77,14 @@ main.tex includes content files:
 - appenA.tex
 - reference.tex
 
+Please edit each file. 
+When you make the cover, 
+please edit main.tex. 
+(sorry, but this is not user friendly. Modifications will be coming soon.) 
 Each file can be outputed as pdf files for confirmation.
-Style files are required to complie main.tex: 
+
+FStyle files are required to complie main.tex: 
+uFrthermore, style files are required to complie main.tex: 
 
 - mediabb.sty
 - mrsty2.sty
