@@ -35,7 +35,7 @@ then, execute the following command in the created directory:
     % cd directory_name_you_create
     % sudo mktexlsr
 
-#### ■ report/report_textemp.pdf
+#### ■ report/usage_example.pdf
 This is the example result of compiled report/report_textemp.tex.
 
 #### ■ report/zu/
