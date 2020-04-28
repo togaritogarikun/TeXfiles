@@ -1,0 +1,132 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                      %
+%    report_textemp.tex                                %
+%    ~~~~~~~~~~~~~~~~~~                                %
+%    This file is the template for reports.            %
+%    The style file, 'mytexsty_v1.sty', is required.   %
+%                                                      %
+%    made by Yudai YAMAKAWA                            %
+%    last update: April 28, 2020                       %
+%                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% document class
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[dvipdfmx,a4j,11pt]{article}
+%\documentclass[a4j,11pt]{jsarticle}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\usepackage{mytexsty_v1}
+%\usepackage{mytexsty_v2}
+\usepackage{mytexsty_v3}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+\noindent
+\begin{flushleft} 
+%\Large 
+%\bf
+\large
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% course title & date
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Science of fruits color 1    % course title
+\hspace{\fill}
+June 6, 2100    % date
+
+\end{flushleft}
+\begin{center} 
+\LARGE 
+%\huge
+\bf
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% report title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{\Huge F}INAL {\Huge R}EPORT 
+
+\vspace{0.3cm} 
+\large \rm
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% student ID & name & affiliation & contact 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ABCD1234 ~~    % student ID
+Cherry SMITH    % your name
+    
+Department of Cherry Engineering, Fruits University	% affiliation
+    
+mail: csmith@fruits.ac.jp	%contact
+
+\end{center}
+\normalsize
+\vspace{0.5cm} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% main text
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+\section{Multiplying Cherry}
+%
+%
+% 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa~\cite{orange}. 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa. 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa (Fig.~\ref{fig:multicherry}). 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+aaaa aaaa aaaa aaaa.
+
+%\twofigchtbp{./zu/cherry1.pdf}{Red cherry.}{cherry1}{./zu/cherry2.pdf}{Two red cherrires.}{cherry2}
+\twofightbp{./zu/cherry1.pdf}{(a) one cherry}{cherry1}{./zu/cherry2.pdf}{(b) two cherries}{cherry2}{Multiplying red cherry.}{multicherry}
+%\fightbp[width=5cm]{./zu/cherry3.pdf}{Three cherries.}{cherry}
+
+%
+%
+%
+\section{Gverning Equation}
+%
+%
+% 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+shown in eq.~(\ref{eq:1}).   
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa. 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa 
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa. 
+
+\begin{equation}
+	\label{eq:1}
+	\rot {\bf C} = \frac{\dd h}{\dd y} {\rm e}^{rry}.
+\end{equation}
+
+%%% end of main text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%\vspace{10mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% references
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{99}
+	\bibitem{orange} Orange JOHNSON, "Numerical Analysis of multiplying orange," {\it journal of red fruits}, Vol. 1, No. 1, 2099.
+	\bibitem{cherry1} https://unsplash.com/photos/3HhXWJzG5Ko
+	\bibitem{cherru2} https://unsplash.com/photos/INprSEBbfG4
+%	\bibitem{cherry3} https://unsplash.com/photos/JbnUwSe7XuE
+%	\bibitem{bbbb} Bbbb BBBB, "bbbb bbbb bbbb," {\it bbbb journal}, $\bf 1$ (2100).
+\end{thebibliography}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
