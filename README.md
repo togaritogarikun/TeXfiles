@@ -83,8 +83,8 @@ please edit main.tex.
 (sorry, but this is not user friendly. Modifications will be coming soon.) 
 Each file can be outputed as pdf files for confirmation.
 
-FStyle files are required to complie main.tex: 
-uFrthermore, style files are required to complie main.tex: 
+Style files are required to complie main.tex: 
+Furthermore, style files are required to complie main.tex: 
 
 - mediabb.sty
 - mrsty2.sty
