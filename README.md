@@ -22,7 +22,7 @@ OR
 
 2. /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
 
-2.1 go to
+In the case of 2, please　go to
 
     % cd /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/
 
@@ -34,3 +34,9 @@ then, execute the following command in the created directory:
 
     % cd directory_name_you_create
     % sudo mktexlsr
+
+#### report/report_textemp.pdf
+This is the example result of compiled report/report_textemp.tex.
+
+#### report/zu/
+This directory stores test datas for figures.
