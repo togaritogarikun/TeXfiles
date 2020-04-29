@@ -96,4 +96,7 @@ please execute the following command in the same directory.
 
     % make
 
-When you would like to remove 
+When you would like to remove intermeditate files 
+(\*.aux, \*.dvi, \*.log, \*.toc), 
+please execute the following command
+
