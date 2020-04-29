@@ -23,11 +23,11 @@ Macro packages are written.
 
 This style file should be in:
 
-1. the same directory as the directory in which report_textemp.tex is.
+**1.** the same directory as the directory in which report_textemp.tex is.
 
 OR
 
-2. /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
+**2.** /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
 
 In the case of 2, please　go to
 
@@ -73,7 +73,7 @@ template files which could be used when you would like to write dissertations
 are included. 
 
 #### :black_small_square: dissertation/main.tex
-main.tex includes content files: 
+main.tex will load content files: 
 
 - abstract.tex
 - intro.tex
@@ -112,3 +112,6 @@ When you would like to remove intermeditate files
 please execute the following command
 
     % make clean
+    
+#### :black_small_square: dissertation/usage_example.pdf
+This is the example result of compiled dissertation/main.tex using Makefile
