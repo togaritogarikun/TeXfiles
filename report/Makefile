@@ -9,10 +9,10 @@ DVIPDFMX	:= dvipdfmx
 #
 TARGET	:= report_textemp
 TEX	:= $(TARGET).tex #\
-.tex \
-.tex \
-.tex \
-.tex
+aaaa.tex \
+aaaa.tex \
+aaaa.tex \
+aaaa.tex
 DVI	:= $(TARGET).dvi
 PDF	:= $(TARGET).pdf
 
