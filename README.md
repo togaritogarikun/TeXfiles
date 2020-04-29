@@ -1,6 +1,12 @@
 # TeX Files Group / TeX テンプレートまとめ
 This repository stores TeX-related files.
 
+Please see the details according to your purposes:
+
+- to write reports
+- to summarize papers you read 
+- to write dissertations
+
 ## report/
 In this directory, 
 template files which could be used for reports are included.
