@@ -1,4 +1,4 @@
-# TeX Files Group
+# TeX Files Group / TeX テンプレートまとめ
 This repository stores TeX-related files.
 
 ## report/
@@ -80,7 +80,9 @@ Please edit each file, when you write your paper.
 When you make the cover, 
 please edit \maketitle part in main.tex. 
 (Sorry, but this is not user friendly. Modifications will be coming soon.) 
-Each file can be outputed as pdf files for confirmation, severally.
+Each file can be outputed as pdf files for confirmation, severally. 
+When you change or create content files (\*.tex which will be included by main.tex), 
+you have to reflect such change to main.tex and Makefile.
 
 Style files are required to complie main.tex: 
 Furthermore, style files are required to complie main.tex: 
@@ -100,3 +102,4 @@ When you would like to remove intermeditate files
 (\*.aux, \*.dvi, \*.log, \*.toc), 
 please execute the following command
 
+    % make clean
