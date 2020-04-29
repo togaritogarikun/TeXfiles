@@ -4,12 +4,12 @@ This repository stores TeX-related files.
 Please see the details according to your purposes:
 
 - [to write reports](#report)
-- [to write reports](#-report/)
+- [to write reports](#-reports/)
 - [to summarize papers you read](#summary)
 - [to write dissertations](#dissertation)
 
-🐤 report/
---------------------
+:baby_chick: reports/
+==========
 ## report/
 In this directory, 
 template files which could be used for reports are included.
