@@ -4,7 +4,7 @@ This repository stores TeX-related files.
 Please see the details according to your purposes:
 
 - [to write reports](#report)
-- [to write reports](#-reports/)
+- [to write reports](#baby_chick-reports)
 - [to summarize papers you read](#summary)
 - [to write dissertations](#dissertation)
 
