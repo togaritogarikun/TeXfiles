@@ -59,13 +59,9 @@ Macro packages are written.
 This is the example result of compiled summary/Summary_of_PaperIread.tex
 
 ## dissertation/
-Sorry, but please note that small bugs still remain. 
-You can use files to output the final form of thesis (main.pdf); 
-however, the error message will be displayed: 
-> main.tex:103: LaTeX Error: There's no line here to end.
-
 In this directory, 
-template files which could be used when you would like to write dissertations. 
+template files which could be used when you would like to write dissertations 
+are included. 
 
 #### ■ dissertation/main.tex
 main.tex includes content files: 
@@ -80,11 +76,11 @@ main.tex includes content files:
 - appenA.tex
 - reference.tex
 
-Please edit each file. 
+Please edit each file, when you write your paper. 
 When you make the cover, 
-please edit main.tex. 
-(sorry, but this is not user friendly. Modifications will be coming soon.) 
-Each file can be outputed as pdf files for confirmation.
+please edit \maketitle part in main.tex. 
+(Sorry, but this is not user friendly. Modifications will be coming soon.) 
+Each file can be outputed as pdf files for confirmation, severally.
 
 Style files are required to complie main.tex: 
 Furthermore, style files are required to complie main.tex: 
@@ -93,3 +89,11 @@ Furthermore, style files are required to complie main.tex:
 - mrsty2.sty
 - jsplusmr.sty
 - setting1.tex
+
+#### ■ dissertation/Makefile
+When you would like to compile TeX files to output the pdf file, 
+please execute the following command in the same directory. 
+
+    % make
+
+When you would like to remove 
