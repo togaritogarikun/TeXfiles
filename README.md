@@ -3,9 +3,9 @@ This repository stores TeX-related files.
 
 Please see the details according to your purposes:
 
-- to write reports
-- to summarize papers you read 
-- to write dissertations
+- <a href="#report/">to write reports</a>
+- <a href="#summary/">to summarize papers you read</a>
+- <a href="#dissertation/">to write dissertations</a>
 
 ## report/
 In this directory, 
