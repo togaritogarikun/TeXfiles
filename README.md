@@ -3,14 +3,12 @@ This repository stores TeX-related files.
 
 Please see the details according to your purposes:
 
-- [to write reports](#report)
 - [to write reports](#baby_chick-reports)
-- [to summarize papers you read](#summary)
-- [to write dissertations](#dissertation)
+- [to summarize papers you read](#baby_chick-summary)
+- [to write dissertations](#baby_chick-dissertation)
 
 :baby_chick: reports/
-==========
-## report/
+=====================
 In this directory, 
 template files which could be used for reports are included.
 
@@ -50,7 +48,8 @@ This is the example result of compiled report/report_textemp.tex.
 #### ■ report/zu/
 This directory stores test datas for figures.
 
-## summary/
+:baby_chick: summary/
+=====================
 In this directory, 
 template files which could be used when you would like to summarize papers you read are included. 
 The summary methods provided by Prof. Y. OCHIAI are refered to.
@@ -67,7 +66,8 @@ Macro packages are written.
 #### ■ summary/usage_example.pdf
 This is the example result of compiled summary/Summary_of_PaperIread.tex
 
-## dissertation/
+:baby_chick: dissertation/
+==========================
 In this directory, 
 template files which could be used when you would like to write dissertations 
 are included. 
