@@ -1,4 +1,4 @@
-# TeX Files Group / TeX テンプレートまとめ
+# TeX Files Group（TeX テンプレートまとめ）
 This repository stores TeX-related files.
 
 Please see the details according to your purposes:
