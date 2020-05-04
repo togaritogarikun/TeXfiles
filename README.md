@@ -21,7 +21,7 @@ please execute the following command:
 
     % make clean
 
-:c: reports/
+:baby_chick: reports/
 =====================
 In this directory, 
 template files which could be used for reports are included.
