@@ -10,6 +10,7 @@ Please see the details according to your purposes:
 
 :baby_chick: How to compile
 ===========================
+Each directory holds Makefile. 
 When you would like to compile TeX files to output the pdf file, 
 please execute the following command in the same directory TeX files you edited exist: 
 
