@@ -7,6 +7,7 @@ Please see the details according to your purposes:
 - [to write reports](#baby_chick-reports)
 - [to summarize papers you read](#baby_chick-summary)
 - [to write dissertations](#baby_chick-dissertation)
+- [to make slides for seminar (NOT for presentation)](#hatching_chick-slide)
 
 :baby_chick: How to compile
 ===========================
@@ -118,3 +119,15 @@ Furthermore, style files are required to complie main.tex:
     
 #### :black_small_square: dissertation/usage_example.pdf
 This is the example result of compiled dissertation/main.tex using Makefile
+
+
+:hatching_chick: slide/
+=======================
+In this directory, 
+template files which could be used for slides for seminar are included.
+Please NOTE that: the volume of content a slide is much larger than slides for presentations, and 
+this is still under development regarding the design.
+
+### :black_small_square: slide/J_translation/
+
+In this directory, template files which could be used to translate books are included.
