@@ -3,11 +3,25 @@ This repository stores TeX-related files.
 
 Please see the details according to your purposes:
 
+- [How to complie TeX files](#baby_chick-how-to-compile)
 - [to write reports](#baby_chick-reports)
 - [to summarize papers you read](#baby_chick-summary)
 - [to write dissertations](#baby_chick-dissertation)
 
-:baby_chick: reports/
+:baby_chick: How to compile
+===========================
+When you would like to compile TeX files to output the pdf file, 
+please execute the following command in the same directory TeX files you edited exist: 
+
+    % make
+
+When you would like to remove intermeditate files 
+(\*.aux, \*.dvi, \*.log, \*.toc), 
+please execute the following command:
+
+    % make clean
+
+:c: reports/
 =====================
 In this directory, 
 template files which could be used for reports are included.
@@ -100,18 +114,6 @@ Furthermore, style files are required to complie main.tex:
 - mrsty2.sty
 - jsplusmr.sty
 - setting1.tex
-
-#### :black_small_square: dissertation/Makefile
-When you would like to compile TeX files to output the pdf file, 
-please execute the following command in the same directory. 
-
-    % make
-
-When you would like to remove intermeditate files 
-(\*.aux, \*.dvi, \*.log, \*.toc), 
-please execute the following command
-
-    % make clean
     
 #### :black_small_square: dissertation/usage_example.pdf
 This is the example result of compiled dissertation/main.tex using Makefile
