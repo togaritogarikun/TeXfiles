@@ -1,0 +1,219 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{amsmath,amssymb}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{array}
+\usepackage{enumerate}
+\usepackage{longtable}
+\usepackage{float}
+%\usepackage{mediabb}
+\usepackage{subfigure}
+\usepackage{setspace}
+\usepackage{cite}
+\usepackage{lscape}
+\usepackage{helvet}
+\usepackage{here}
+\usepackage{graphicx,color}
+\usepackage{titlesec}
+\usepackage{typearea}   %[1]
+\usepackage{wrapfig}
+\usepackage{pdfpages}
+%\usepackage[hang,small,bf]{caption}
+%\usepackage[subrefformat=parens]{subcaption}
+%\captionsetup{compatibility=false}
+\usepackage{subfig}
+\usepackage[T1]{fontenc}
+%\usepackage[margin=13.636mm]{geometry}
+%\usepackage{geometry}
+\usepackage{ascmac}
+%\usepackage{fancybx}
+\usepackage{setspace}
+\setstretch{0.9374}
+\usepackage{amsmath,amssymb} %数式環境
+\usepackage{bm} %数式中の太字
+\usepackage{siunitx} %文章中にSI単位を記述
+\usepackage[deluxe]{otf} %フォント管理
+\usepackage{caption}
+\captionsetup[figure]{name=Fig.~, labelsep=colon,font=footnotesize}
+\captionsetup[table]{name=Tbl.~, labelsep=quad, font=footnotesize}
+
+\addtolength{\hoffset}{1.6cm}
+\addtolength{\voffset}{1.5cm}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+
+%%% header & footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\slshape \leftmark}
+\chead{}
+\rhead{\thepage}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\setlength{\topskip}{0mm}
+\addtolength{\hoffset}{1.5cm}
+%\addtolength{\voffset}{1.5cm}
+\setlength{\oddsidemargin}{0pt}
+\setlength{\evensidemargin}{0pt}
+\renewcommand{\headrulewidth}{0.5pt}
+\renewcommand{\footrulewidth}{0pt}
+%%%
+
+
+%%% [1]
+%%% you can adjust the wight of the text: \typearea{12}
+%%% To understand in more detailed, go to: 
+%%% https://ctan.org/pkg/koma-script
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% new commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% figure-related
+%%%%%% figure number: 1
+%%%%%% you can insert figures by the following new command for example:
+%%%%%% \fightbp[width]{path}{caption}{label}
+%%%%%% OR 
+%%%%%% \fightbp{path}{caption}{label}    (--> width will be 5cm)
+%%%%%%%%% figure location: htbp
+\newcommand{\fightbp}[4][width=5cm]{%
+\begin{figure}[htbp]
+	\begin{center}
+		\includegraphics[#1]{#2}
+		\caption{#3}
+		\label{fig:#4}
+	\end{center}
+\end{figure}
+}
+
+%%%%%%%%% figure location: h
+\newcommand{\figh}[4][width=5cm]{%
+\begin{figure}[h]
+	\begin{center}
+		\includegraphics[#1]{#2}
+		\caption{#3}
+		\label{fig:#4}
+	\end{center}
+\end{figure}
+}
+
+%%%%%%%%% figure location: H
+\newcommand{\figH}[4][width=5cm]{%
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[#1]{#2}
+		\caption{#3}
+		\label{fig:#4}
+	\end{center}
+\end{figure}
+}
+
+%%%%%% figure number: 2
+%%%%%% you can insert figures by the following new command for example:
+%%%%%% \twofigchtbp[width]{path1}{caption1}{label1}{path2}{caption2}{label2}
+%%%%%% OR 
+%%%%%% \twofigchtbp[width]{path1}{caption1}{label1}{path2}{caption2}{label2}
+%%%%%% (--> width will be 5cm for each figure)
+%%%%%%%%% two figures in one line w/ caption number for each figure
+\newcommand{\twofigchtbp}[1][width=4cm]{%
+    \def\thincludegraphics{\includegraphics[#1]}
+    \figshtbpcontent
+}
+\newcommand{\figshtbpcontent}[6]{%
+\begin{figure}[htbp]
+    \begin{minipage}{0.5\hsize}
+        \begin{center}
+        \thincludegraphics{#1}
+        \end{center}
+        \caption{#2}
+        \label{fig:#3}
+    \end{minipage}
+    \begin{minipage}{0.5\hsize}
+        \begin{center}
+        \thincludegraphics{#4}
+        \end{center}
+        \caption{#5}
+        \label{fig:#6}
+    \end{minipage}
+\end{figure}
+}
+
+%%%%%%%%% two figures in one line w/o caption number for each figure
+\newcommand{\twofightbp}[1][width=4cm]{%
+    \def\thincludegraphicssc{\includegraphics[#1]}
+    \figshtbpcontentsc
+}
+\newcommand{\figshtbpcontentsc}[8]{%
+\addtocounter{figure}{-2}
+\begin{figure}[htbp]
+    \begin{minipage}{0.5\hsize}
+        \begin{center}
+        \thincludegraphicssc{#1}
+        \end{center}
+        \captionsetup{labelformat=empty,labelsep=none}
+        \caption{#2}
+        \label{fig:#3}
+    \end{minipage}
+    \begin{minipage}{0.5\hsize}
+        \begin{center}
+        \thincludegraphicssc{#4}
+        \end{center}
+        \captionsetup{labelformat=empty,labelsep=none}
+        \caption{#5}
+        \label{fig:#6}
+    \end{minipage}
+    \caption{#7}
+    \label{fig:#8}
+\end{figure}
+}
+
+%%% mathematical-sign-related
+\DeclareMathOperator{\divergence}{div}
+\DeclareMathOperator{\grad}{grad}
+\DeclareMathOperator{\rot}{rot}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\re}{Re}
+\DeclareMathOperator{\im}{Im}
+\newcommand{\dd}{{\rm d}}    %e.g. \frac{\dd x}{\dd t}
+\newcommand{\pp}{\partial}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% setting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\typearea{12}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% modification of style
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% caption-related
+%%% If you would like to display : like "Figure 1: xxxx", 
+%%% please comment out the following 12 all lines.
+\long\def\@makecaption#1#2{{\small
+    \advance\leftskip1cm
+    \advance\rightskip1cm
+    \vskip\abovecaptionskip
+    \sbox\@tempboxa{#1 \hskip 0.75zw #2}    %remove :
+    \ifdim \wd\@tempboxa >\hsize
+        #1: #2\par
+    \else
+        \global \@minipagefalse
+        \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+    \fi
+\vskip\belowcaptionskip}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% macro
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%adjust margins between sections
+\makeatletter
+\renewcommand{\section}{\@startsection {section}{1}{\z@}%
+   {.5zh \@plus.5zh \@minus.2zh}%
+   {.2zh \@plus.3zh}%
+   {\normalfont\large\bfseries}%
+   }
+\makeatother
