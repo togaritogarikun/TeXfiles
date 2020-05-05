@@ -123,7 +123,7 @@ This is the example result of compiled dissertation/main.tex using Makefile
 
 :hatching_chick: slide/
 =======================
-*this is still under development regarding the design.*
+*This is still under development regarding the design.*
 
 In this directory, 
 template files which could be used for slides for seminar are included.
