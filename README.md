@@ -109,7 +109,7 @@ Each file can be outputed as pdf files for confirmation, severally.
 When you change or create content files (\*.tex which will be included by main.tex), 
 you have to reflect such change to main.tex and Makefile.
 
-Style files are required to complie main.tex: 
+Style files are required to compile main.tex: 
 Furthermore, style files are required to complie main.tex: 
 
 - mediabb.sty
@@ -123,11 +123,16 @@ This is the example result of compiled dissertation/main.tex using Makefile
 
 :hatching_chick: slide/
 =======================
+*this is still under development regarding the design.*
+
 In this directory, 
 template files which could be used for slides for seminar are included.
-Please NOTE that: the volume of content a slide is much larger than slides for presentations, and 
-this is still under development regarding the design.
+Please NOTE that: the volume of content a slide is much larger than slides for presentations, so this is not suitable to conferences etc.
+
+Please be carefull that the style file, mytexsty_v6.sty, is required to compile the main TeX file, slide.tex. 
 
 ### :black_small_square: slide/J_translation/
 
-In this directory, template files which could be used to translate books are included.
+In this directory, template files which could be used for the translation of book are included. 
+
+Please be carefull that the style file, mytexsty_v5.sty, is required to compile the main TeX file, jtrans.tex. 
