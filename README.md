@@ -23,46 +23,29 @@ please execute the following command:
 
     % make clean
 
+Please NOTE that each template TeX-source, \*.tex, 
+requires the style file, \*.sty, to compile. 
+It is stored in the same directory as each TeX-source.
+
 :baby_chick: reports/
 =====================
 In this directory, 
-template files which could be used for reports are included.
+two directories are included: 
+**column_1/** and **column_2/**. 
+Each directory holds 
+template files which could be used for reports 
+with one column or two columns.
 
-#### :black_small_square: report/report_textemp.tex
+#### :black_small_square: report/column_1 or column_2/report_temp_c1.tex or report_temp_c1.tex
 This is the main TeX-file. 
 You will edit this one. 
 To compile this, mytexsty_v3.sty is required.
 
-#### :black_small_square: report/mytexsty_v3.sty
-This is the style file. 
-Macro packages are written. 
-
-This style file should be in:
-
-**1.** the same directory as the directory in which report_textemp.tex is.
-
-OR
-
-**2.** /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/directory_name_you_create
-
-In the case of 2, please　go to
-
-    % cd /usr/local/texlive/year_of_your_texlive/texmf-dist/tex/platex/
-
-and create any directory (e.g. directory_name_you_create):
-
-    % sudo mkdir directory_name_you_create
-
-then, execute the following command in the created directory:
-
-    % cd directory_name_you_create
-    % sudo mktexlsr
-
-#### :black_small_square: report/usage_example.pdf
+#### :black_small_square: report/column_1 or column_2/usage_example.pdf
 This is the example result of compiled report/report_textemp.tex.
 
-#### :black_small_square: report/zu/
-This directory stores test datas for figures.
+#### :black_small_square: report/column_1 or column_2/zu/
+This is the working directory storing test figures.
 
 :baby_chick: summary/
 =====================
