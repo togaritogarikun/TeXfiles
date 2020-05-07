@@ -39,10 +39,9 @@ with one column or two columns, respectively.
 #### :black_small_square: report/column_1 or column_2/report_temp_c1.tex or report_temp_c1.tex
 This is the main TeX-file. 
 You will edit this one. 
-To compile this, mytexsty_v3.sty is required.
 
 #### :black_small_square: report/column_1 or column_2/usage_example.pdf
-This is the example result of compiled report/report_textemp.tex.
+This is the example result of compiled \*.tex with \*.sty.
 
 #### :black_small_square: report/column_1 or column_2/zu/
 This is the working directory storing test figures.
@@ -60,7 +59,6 @@ To compile this, mytexsty_v4.sty is required.
 
 #### :black_small_square: summary/mytexsty_v4.sty
 This is the style file. 
-Macro packages are written. 
 
 #### :black_small_square: summary/usage_example.pdf
 This is the example result of compiled summary/Summary_of_PaperIread.tex
@@ -72,7 +70,7 @@ template files which could be used when you would like to write dissertations
 are included. 
 
 #### :black_small_square: dissertation/main.tex
-main.tex will load content files: 
+main.tex will load content files by default: 
 
 - abstract.tex
 - intro.tex
@@ -92,7 +90,6 @@ Each file can be outputed as pdf files for confirmation, severally.
 When you change or create content files (\*.tex which will be included by main.tex), 
 you have to reflect such change to main.tex and Makefile.
 
-Style files are required to compile main.tex: 
 Furthermore, style files are required to complie main.tex: 
 
 - mediabb.sty
@@ -101,7 +98,7 @@ Furthermore, style files are required to complie main.tex:
 - setting1.tex
     
 #### :black_small_square: dissertation/usage_example.pdf
-This is the example result of compiled dissertation/main.tex using Makefile
+This is the example result of compiled dissertation/main.tex with above \*.sty.
 
 
 :hatching_chick: slide/
@@ -110,7 +107,7 @@ This is the example result of compiled dissertation/main.tex using Makefile
 
 In this directory, 
 template files which could be used for slides for seminar are included.
-Please NOTE that: the volume of content a slide is much larger than slides for presentations, so this is not suitable to conferences etc.
+Please NOTE that the volume of content a slide is much larger than slides for presentations, so this is not suitable to conferences etc.
 
 Please be carefull that the style file, mytexsty_v6.sty, is required to compile the main TeX file, slide.tex. 
 
