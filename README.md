@@ -34,7 +34,7 @@ two directories are included:
 **column_1/** and **column_2/**. 
 Each directory holds 
 template files which could be used for reports 
-with one column or two columns.
+with one column or two columns, respectively.
 
 #### :black_small_square: report/column_1 or column_2/report_temp_c1.tex or report_temp_c1.tex
 This is the main TeX-file. 
