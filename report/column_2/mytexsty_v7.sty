@@ -23,7 +23,23 @@
 %\usepackage[subrefformat=parens]{subcaption}
 %\captionsetup{compatibility=false}
 \usepackage{subfig}
+\usepackage{ascmac}
 
+\usepackage{mflogo}
+\usepackage{booktabs}
+\usepackage{bm}
+%\usepackage[scaled]{helvet}
+\setlength{\textheight}{257.0truemm}
+\setlength{\textwidth}{160.0truemm}
+\setlength{\topmargin}{-5.4truemm}
+\setlength{\headheight}{0.0truemm}
+\setlength{\headsep}{0.0truemm}
+\setlength{\topskip}{0.0truemm}
+\setlength{\oddsidemargin}{-5.4truemm}
+\setlength{\evensidemargin}{-5.4truemm}
+\newcommand{\bvec}[1]{\mbox{\boldmath $#1$}}
+\renewcommand{\figurename}{Fig. }
+\renewcommand{\tablename}{Table }
 %%% [1]
 %%% you can adjust the wight of the text: \typearea{12}
 %%% To understand in more detailed, go to: 
@@ -154,18 +170,18 @@
 %%% caption-related
 %%% If you would like to display : like "Figure 1: xxxx", 
 %%% please comment out the following 12 all lines.
-\long\def\@makecaption#1#2{{\small
-    \advance\leftskip1cm
-    \advance\rightskip1cm
-    \vskip\abovecaptionskip
-    \sbox\@tempboxa{#1 \hskip 0.75zw #2}    %remove :
-    \ifdim \wd\@tempboxa >\hsize
-        #1: #2\par
-    \else
-        \global \@minipagefalse
-        \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
-    \fi
-\vskip\belowcaptionskip}}
+%\long\def\@makecaption#1#2{{\small
+%    \advance\leftskip1cm
+%    \advance\rightskip1cm
+%    \vskip\abovecaptionskip
+%    \sbox\@tempboxa{#1 \hskip 0.75zw #2}    %remove :
+%    \ifdim \wd\@tempboxa >\hsize
+%        #1: #2\par
+%    \else
+%        \global \@minipagefalse
+%        \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}%
+%    \fi
+%\vskip\belowcaptionskip}}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

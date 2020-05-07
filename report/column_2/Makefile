@@ -7,7 +7,7 @@ PLATEX	:= platex
 DVIPDFMX	:= dvipdfmx
 
 #
-TARGET	:= report_textemp
+TARGET	:= report_temp_c2
 TEX	:= $(TARGET).tex #\
 aaaa.tex \
 aaaa.tex \

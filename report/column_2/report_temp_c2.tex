@@ -1,0 +1,120 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%                                     
+%                                                      %
+%    report_temp_c1.tex                                %
+%    ~~~~~~~~~~~~~~~~~~                                %
+%    column number = 2                                 %
+%    This is the template file for reports.            %
+%    The style file, 'mytexsty_v7.sty', is required.   %
+%    You can change the name of this file;             %
+%    however, it is better not change                  %
+%    the name of the style file.                       %
+%                                                      %
+%    made by Yudai YAMAKAWA                            %
+%    last update: May 7, 2020                          %
+%                                                      %
+%    GitHub: https://github.com/togaritogarikun        %
+%                                                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[twocolumn,9pt]{article}  
+
+\usepackage{mytexsty_v7}
+
+\begin{document}
+\twocolumn[
+
+Science of fruits color 1    % course titlei [You can edit.]
+\hspace{\fill}
+June 6, 2100
+
+\begin{center}
+    {\Huge F}{\LARGE INAL} {\Huge R}{\LARGE EPORT}    % [You can edit.] 
+\end{center}
+
+%\vspace{-2.65\baselineskip}
+%\begin{flushright}
+%    June 6, 2100
+%\end{flushright}
+%\vspace{0.4em}
+
+\begin{flushright}
+    ABCD1234 ~~    % student ID [You can edit.]
+    Cherry SMITH    % your name [You can edit.]
+
+    Department of Cherry Engineering, Fruits University % affiliation [You can edit.]
+
+    mail: csmith@fruits.ac.jp   %contact [You can edit.]
+\end{flushright}
+\vspace{0.4em}
+
+%\begin{flushleft}
+%\begin{tabular}{ll}
+%%~~~~~~~~Title: & aaaa aaaa aaaa aaaa\\
+%%~~~~~~~~Authors: & Aaaa Aaaa, Bbbb Bbbb, and Cccc, Cccc\\
+%%~~~~~~~~Journal: & Nature, {\bf 1} (2099)
+%\end{tabular}
+\vspace{4mm}
+%\end{flushleft}
+]
+\setlength{\baselineskip}{1.1zw}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Multiplying Cherry}
+%
+%
+%
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa~\cite{orange}.
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa.
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa (Fig.~\ref{fig:3cherry}).
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+aaaa aaaa aaaa aaaa.
+
+%%% examples to insert figures using new commands
+\fightbp[width=5cm]{./zu/cherry3.pdf}{Three cherries.}{3cherry}
+%\twofigchtbp{./zu/cherry1.pdf}{Red cherry.}{cherry1}{./zu/cherry2.pdf}{Two red cherrires.}{cherry2}
+%\twofightbp{./zu/cherry1.pdf}{(a) one cherry}{cherry1}{./zu/cherry2.pdf}{(b) two cherries}{cherry2}{Multiplying red cherry.}{multicherry}
+%
+%
+%
+\section{Governing Equation}
+%
+%
+%
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+shown in eq.~(\ref{eq:1}).
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa.
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa
+aaaa aaaa aaaa aaaa aaaa aaaa aaaa.
+
+\begin{equation}
+    \label{eq:1}
+    \rot {\bf C} = \frac{\dd h}{\dd y} {\rm e}^{rry}.
+\end{equation}
+
+%%% end of main text %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%\vspace{10mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% references [You can edit.]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{thebibliography}{99}
+    \bibitem{orange} Orange JOHNSON, "Numerical Analysis of multiplying orange," {\it journal of red fruits}, Vol. 1, No. 1, 2099.
+    \bibitem{cherry1} https://unsplash.com/photos/3HhXWJzG5Ko
+    \bibitem{cherru2} https://unsplash.com/photos/INprSEBbfG4
+%   \bibitem{cherry3} https://unsplash.com/photos/JbnUwSe7XuE
+%   \bibitem{bbbb} Bbbb BBBB, "bbbb bbbb bbbb," {\it bbbb journal}, $\bf 1$ (2100).
+\end{thebibliography}
+%
+%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
