@@ -8,4 +8,4 @@ mv slide/J_translation ~/
 
 cd
 
-rm -r working_DL_Jtrans
+rm -rf working_DL_Jtrans
