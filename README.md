@@ -113,6 +113,6 @@ Please be carefull that the style file, mytexsty_v6.sty, is required to compile 
 
 ### :black_small_square: slide/J_translation/
 
-In this directory, template files which could be used for the translation of book are included. 
+In this directory, template files which could be used for the translation of books are included. 
 
 Please be carefull that the style file, mytexsty_v5.sty, is required to compile the main TeX file, jtrans.tex. 
