@@ -7,7 +7,7 @@ Please see the details according to your purposes:
 - [to write reports](#baby_chick-reports)
 - [to summarize papers you read](#baby_chick-summary)
 - [to write dissertations](#baby_chick-dissertation)
-- [to make slides for seminar (NOT for presentation)](#hatching_chick-slide)
+- [to make slides for seminar (NOT for presentation), to make translation materials](#hatching_chick-slide)
 
 :baby_chick: How to compile
 ===========================
