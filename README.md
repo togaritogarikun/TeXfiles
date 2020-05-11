@@ -17,6 +17,9 @@ please execute the following command in the same directory TeX files you edited 
 
     % make
 
+Please be carefull that you have to edit the Makefile  
+if you change the distributed name of the TeX-file.
+
 When you would like to remove intermeditate files 
 (\*.aux, \*.dvi, \*.log, \*.toc), 
 please execute the following command:
