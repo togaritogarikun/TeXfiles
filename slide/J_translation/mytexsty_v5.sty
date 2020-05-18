@@ -42,6 +42,11 @@
 \usepackage{booktabs}
 \renewcommand{\arraystretch}{1.2}
 \usepackage{multirow}
+\usepackage{titlesec}
+
+\renewcommand{\thefigure}{% ???????
+\thesection.\arabic{figure}}
+\@addtoreset{figure}{section}
 
 %\addtolength{\hoffset}{1.6cm}
 %\addtolength{\voffset}{1.5cm}
@@ -51,7 +56,8 @@
 %%% header & footer
 \usepackage{fancyhdr}
 \pagestyle{fancy}
-\lhead{\slshape \leftmark}
+%\lhead{\slshape \rightmark}
+\lhead{\rightmark}
 \chead{}
 \rhead{\thepage}
 \lfoot{}
